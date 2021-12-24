@@ -1,7 +1,5 @@
 body {
-  background-image: url("image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #fcd3df;
   width: 100%;
   height: 100vh;
   font-family: sans-serif;
@@ -9,7 +7,7 @@ body {
 }
 .card {
   background-color: #f365af;
-  padding: 10px;
+  padding: 16px;
   margin: auto;
   border-radius: 20px;
   max-width: 480px;
@@ -35,12 +33,12 @@ body {
   transition: transform 0.1s;
 }
 .btn.mau {
-  background-color: #01e675;
-  color: rgb(255, 255, 255);
+  background-color: white;
+  color: #ea4c6e;
 }
 .btn.gak {
   border: 1px solid white;
-  background-color: #9e0505;
+  background-color: #ea4c6e;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -48,7 +46,6 @@ body {
 }
 
 .latin {
-  letter-spacing: 3px;
   font-family: "Brush Script MT";
 }
 
@@ -70,12 +67,10 @@ body {
   margin-bottom: 16px;
 }
 .water-mark a {
-  position: fixed;
-  bottom: 0;
   text-decoration: none;
-  color: rgb(19, 19, 19) !important;
+  color: white !important;
   padding: 5px;
-  border: 1px solid rgb(44, 44, 44);
+  border: 1px solid white;
   border-radius: 10px;
 }
 .water-mark a:hover {
