@@ -83,3 +83,12 @@ body {
   border: 1px solid white;
   border-radius: 10px;
 }
+i {
+  color: white;
+}
+audio .music {
+  backdrop-filter: blur(1px) saturate(180%);
+  -webkit-backdrop-filter: blur(1px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.09);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
