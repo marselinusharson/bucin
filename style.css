@@ -35,12 +35,12 @@ body {
   transition: transform 0.1s;
 }
 .btn.mau {
-  background-color: white;
-  color: #ea4c6e;
+  background-color: #01e675;
+  color: rgb(255, 255, 255);
 }
 .btn.gak {
   border: 1px solid white;
-  background-color: #ea4c6e;
+  background-color: #01e675;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -83,12 +83,4 @@ body {
   border: 1px solid white;
   border-radius: 10px;
 }
-i {
-  color: white;
-}
-audio .music {
-  backdrop-filter: blur(1px) saturate(180%);
-  -webkit-backdrop-filter: blur(1px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.09);
-  border: 1px solid rgba(209, 213, 219, 0.3);
-}
+
