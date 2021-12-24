@@ -1,12 +1,13 @@
 body {
-  background: #fcd3df;
+  background-image: url("image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   font-family: sans-serif;
   box-sizing: border-box;
 }
 .card {
-  background-color: #f365af;
   padding: 16px;
   margin: auto;
   border-radius: 20px;
@@ -33,12 +34,12 @@ body {
   transition: transform 0.1s;
 }
 .btn.mau {
-  background-color: white;
-  color: #ea4c6e;
+  background-color: #01e675;
+  color: white;
 }
 .btn.gak {
   border: 1px solid white;
-  background-color: #ea4c6e;
+  background-color: #b80316;
 }
 .btn:hover {
   transform: scale(1.1);
@@ -79,4 +80,7 @@ body {
   padding: 5px;
   border: 1px solid white;
   border-radius: 10px;
+}
+#musicbox {
+  visibility: hidden;
 }
